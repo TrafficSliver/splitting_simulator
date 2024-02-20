@@ -25,7 +25,7 @@ For simulating a weighted random (WR) and BWR scheduler for three paths with the
 python simulator.py -p dataset/ -m 3 -o outfolder -s weighted_random -i circuits_latencies_new.txt
 
 ##For BWR m=5
-python simulator.py -p dataset/ -m 5 -o outfolder -s batched_weighted_random -r 50,70 -a 1,1
+python simulator.py -p dataset/ -m 5 -o outfolder -s batched_weighted_random -r 50,70 -a 1,1,1,1,1
 
 ```
 
